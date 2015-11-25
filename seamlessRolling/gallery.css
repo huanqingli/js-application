@@ -1,0 +1,29 @@
+#gallery {
+    width: 60%;
+    margin: 6% auto auto auto;
+    border-top: 1px solid orange;
+    overflow: hidden;
+    position: relative;
+}
+#gallery ul {
+    position: relative;
+}
+#gallery li {
+    width: 8.333333333333333333%;
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+a {
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
