@@ -16,5 +16,5 @@ function gallery() {
         picLink.href = img.src;
     }
     var oUl = document.getElementById("roller");
-    roller(oUl,pic,3,1)
+    roller(oUl,pic,3,2)
 }gallery();
