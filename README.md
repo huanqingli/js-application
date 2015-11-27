@@ -3,3 +3,5 @@
 http://huanqingli.github.io/js-application/bufferMove/bufferMovementTest.html
 ###自适应无缝滚动框架测试(制作包含基础功能的图库)
 http://huanqingli.github.io/js-application/seamlessRolling/seamlessRollingTest.html
+###面向对象的选项卡框架测试(选中标签会增加class："active".)
+http://huanqingli.github.io/js-application/OOTagControl/OOTabControlTest.html
