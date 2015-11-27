@@ -21,7 +21,6 @@ body{
     width: 300px;
     height: 200px;
     display: none;
-    clear: both;
 }
 #div2 li:first-child{
     display: block;
