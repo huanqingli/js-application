@@ -3,10 +3,10 @@
  */
 //面向对象的选项卡框架说明：(选中标签会增加class："active".)
 //new tabControl(总标签容器的ID,总内容容器的ID,子标签的Tag name,子内容的Tag name)
-function tabControl(tag,box,tagTag,boxTag){
-    this.oDiv1=document.getElementById(tag);
+function tabControl(tab,box,tabTag,boxTag){
+    this.oDiv1=document.getElementById(tab);
     this.oDiv2=document.getElementById(box);
-    this.aBtn=this.oDiv1.getElementsByTagName(tagTag);
+    this.aBtn=this.oDiv1.getElementsByTagName(tabTag);
     this.aBox=this.oDiv2.getElementsByTagName(boxTag);
     for(var i=0;i<this.aBtn.length;i++ ){
         this.aBtn[i].index=i;
