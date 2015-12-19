@@ -1,0 +1,28 @@
+#box{
+    left: 50%;
+    top: 20%;
+    margin-left: -165px;
+}
+#box div{
+    cursor: pointer;
+}
+body div{
+    display: block;
+}
+div{
+    position: relative;
+    margin: 20px 37px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    display: none;
+}
+input{
+    position: relative;
+    float: left;
+    margin: 10px 15px;
+    height: 30px;
+    width:265px;
+    font-size: 25px;
+}
