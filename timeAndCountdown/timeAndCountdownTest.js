@@ -15,7 +15,11 @@ var timer;
 oBtn.onclick=function(){
     var time=[];
     for(var z=0;z<6;z++){
-        time[z]=parseInt(aInput[z].value);
+        if(aInput[z].value>=1){
+            time[z]=parseInt(aInput[z].value);
+        }else{
+            time[z]=1
+        }
     }
     var target=new Date( time[0],time[1]-1,time[2],time[3],time[4],time[5] );
     clearInterval(timer);
