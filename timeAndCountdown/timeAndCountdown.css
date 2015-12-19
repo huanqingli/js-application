@@ -1,0 +1,46 @@
+html body{
+    width: 100%;
+}
+img{
+    height: 35px;
+    width: 35px;
+}
+input[type="text"]{
+    font-size: 25px;
+    width: 60px;
+    height: 25px;
+}
+#time{
+    position: relative;
+    height: 100px;
+    width: 550px;
+    margin: auto;
+    top: 50px;
+
+}
+#countdown{
+    position: relative;
+    height: 200px;
+    width: 550px;
+    margin: auto;
+    top: 100px;
+}
+#set{
+    position: relative;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    top: 100px;
+    font-size: 25px;
+}
+#setBtn{
+    height: 30px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    top: 20px;cursor: pointer;
+    margin: auto;
+    line-height: 30px;
+}
