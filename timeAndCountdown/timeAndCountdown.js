@@ -35,12 +35,13 @@ function getTime(aImg,aTimeImg){
 function countdown(aImg,aTimeImg,target){
     var myTime=new Date();
     var t=(target-myTime)/1000;
+    if(t<0){t=0}
     var day=Math.floor(t/86400);
     var hour=Math.floor(t%86400/3600);
     var min=Math.floor(t%86400%3600/60);
     var sec=Math.floor(t%60);
     var aTimeNum=[];
-    aTimeNum[0]=Math.floor(day/1000);
+    aTimeNum[0]=Math.floor(day%10000/1000);
     aTimeNum[1]=Math.floor(day%1000/100);
     aTimeNum[2]=Math.floor(day%100/10);
     aTimeNum[3]=day%10;

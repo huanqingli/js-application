@@ -11,13 +11,15 @@ for(var i=0;i<14;i++){
 }
 var oBtn=document.getElementById("setBtn");
 var aInput=document.getElementsByTagName("input");
+var timer;
 oBtn.onclick=function(){
     var time=[];
     for(var z=0;z<6;z++){
         time[z]=parseInt(aInput[z].value);
     }
     var target=new Date( time[0],time[1]-1,time[2],time[3],time[4],time[5] );
-    setInterval(function(){
+    clearInterval(timer);
+    timer=setInterval(function(){
         countdown(aImg2,aTimeImg,target);
     },1000);
 };
