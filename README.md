@@ -5,3 +5,5 @@ http://huanqingli.github.io/js-application/bufferMove/bufferMovementTest.html
 http://huanqingli.github.io/js-application/seamlessRolling/seamlessRollingTest.html
 ###面向对象的选项卡框架测试(选中标签会增加class："active".)
 http://huanqingli.github.io/js-application/OOTabControl/OOTabControlTest.html
+###计时器与倒计时框架（制作应用图片的计时器与倒计时）
+http://huanqingli.github.io/js-application/timeAndCountdown/timeAndCountdownTest.html
