@@ -5,9 +5,9 @@ http://huanqingli.github.io/jsApplication/bufferMove/bufferMovementTest.html
 http://huanqingli.github.io/jsApplication/seamlessRolling/seamlessRollingTest.html
 ###面向对象的选项卡框架测试(选中标签会增加class："active".)
 http://huanqingli.github.io/jsApplication/OOTabControl/OOTabControlTest.html
-###计时器与倒计时框架（制作应用图片的计时器与倒计时）
+###计时器与倒计时框架测试（制作应用图片的计时器与倒计时）
 http://huanqingli.github.io/jsApplication/timeAndCountdown/timeAndCountdownTest.html
-###设置cookie工具（cookie的添加，调用，删除）
+###设置cookie工具测试（cookie的添加，调用，删除）
 http://huanqingli.github.io/jsApplication/cookieControl/cookieControlTest.html
-###拖拽与碰撞检测框架（碰撞检测返回true of false）
+###拖拽与碰撞检测框架测试（碰撞后融为一体）
 http://huanqingli.github.io/jsApplication/dragAndCrash/dragAndCrashTest.html
