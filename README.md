@@ -9,3 +9,5 @@ http://huanqingli.github.io/jsApplication/OOTabControl/OOTabControlTest.html
 http://huanqingli.github.io/jsApplication/timeAndCountdown/timeAndCountdownTest.html
 ###设置cookie工具（cookie的添加，调用，删除）
 http://huanqingli.github.io/jsApplication/cookieControl/cookieControlTest.html
+###拖拽与碰撞检测框架（碰撞检测返回true of false）
+http://huanqingli.github.io/jsApplication/dragAndCrash/dragAndCrashTest.html

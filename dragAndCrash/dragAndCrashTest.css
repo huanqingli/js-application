@@ -1,0 +1,17 @@
+#box{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    z-index: 100;
+}
+#border{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+}
