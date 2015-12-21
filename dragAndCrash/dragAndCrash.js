@@ -2,16 +2,27 @@
  * Created by Muc on 15/12/20.
  */
 //拖拽框架使用说明：
-//drag(待拖拽对象，拖拽结束后执行的方程);
+//drag(待拖拽对象，拖拽结束后执行的方程);(自动吸附至浏览器边框)
 function drag(oBox,fn){
-    oBox.onmousedown=function(ev){
-        var ev=ev||event;
+    oBox.onmousedown=function(eve){
+        var ev=eve||event;
         var x=ev.clientX-parseInt(getStyle(oBox,"left"));
         var y=ev.clientY-parseInt(getStyle(oBox,"top"));
-        document.onmousemove=function(ev){
-            var ev=ev||event;
-            oBox.style.left=ev.clientX-x+"px";
-            oBox.style.top=ev.clientY-y+"px";
+        document.onmousemove=function(eve){
+            var ev=eve||event;
+            var l=ev.clientX-x,t=ev.clientY-y;
+            if ( l < 50 ) {
+                l = 0;
+            } else if ( l > document.documentElement.clientWidth - parseInt(getStyle(oBox,"width"))-50 ) {
+                l = document.documentElement.clientWidth - parseInt(getStyle(oBox,"width"));
+            }
+            if ( t < 50 ) {
+                t = 0;
+            } else if ( t > document.documentElement.clientHeight - parseInt(getStyle(oBox,"height"))-50 ) {
+                t = document.documentElement.clientHeight - parseInt(getStyle(oBox,"height"));
+            }
+            oBox.style.left=l+"px";
+            oBox.style.top=t+"px";
         };
         document.onmouseup=function(){
             document.onmousemove=document.onmouseup=null;
@@ -33,12 +44,7 @@ function crash(oBox1,oBox2){
     var y2=parseInt(getStyle(oBox2,"top"));
     var y3=parseInt(getStyle(oBox2,"width"));
     var y4=parseInt(getStyle(oBox2,"height"));
-    if(x1<y1-x3||x2<y2-x4||x1>y1+y3||x2>y2+y4){
-        return false
-    }
-    else{
-        return true
-    }
+    return !(x1<y1-x3||x2<y2-x4||x1>y1+y3||x2>y2+y4)
 }
 function getStyle(box,attr){
     if(box.currentStyle){
