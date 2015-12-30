@@ -11,3 +11,5 @@ http://huanqingli.github.io/jsApplication/timeAndCountdown/timeAndCountdownTest.
 http://huanqingli.github.io/jsApplication/cookieControl/cookieControlTest.html
 ###拖拽与碰撞检测框架测试（碰撞后融为一体，被拖拽物体会自动吸附至浏览器边框）
 http://huanqingli.github.io/jsApplication/dragAndCrash/dragAndCrashTest.html
+###ajax工具测试（制作简易留言本）(因为涉及到数据库，所以部署到了自己的服务器上)
+http://www.dabao.love/littlething/ajaxTools/ajaxToolsTest.html
