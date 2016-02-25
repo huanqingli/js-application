@@ -18,7 +18,7 @@ function roller(total,view,n,rate){
     }
     total.onmouseover = function () {
         clearInterval(timer);
-    }
+    };
     total.onmouseout = function () {
         timer = setInterval(roll, 30);
     };
