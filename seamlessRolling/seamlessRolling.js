@@ -1,7 +1,7 @@
 /**
  * Created by Muc on 15/11/24.
  */
-//自适应无缝滚动框架说明：（需要配合获取元素框架）
+//自适应无缝滚动工具说明：（需要配合获取元素工具）
 //roller(总容器,可见部分容器,总容器与可见容器宽度比值,运动速率)
 function roller(total,view,n,rate){
     function fit() {
@@ -23,7 +23,7 @@ function roller(total,view,n,rate){
         timer = setInterval(roll, 30);
     };
 }
-// 获取元素属性框架说明：（为兼容IE 6 7 8）
+// 获取元素属工具架说明：（为兼容IE 6 7 8）
 // getStyle(元素,带获取属性)
 function getStyle(box,attr){
     if(box.currentStyle){

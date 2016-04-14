@@ -23,4 +23,4 @@ TabControl.prototype.showTab=function(oBtn){
     }
     oBtn.className="active";
     this.aBox[oBtn.index].style.display="block";
-}
+};
